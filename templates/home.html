@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>GStore</h1>
+{% for product in all_products %}
+<div class="product-entry">
+    <h2><a href="{% url 'product_detail' product.pk %}">{{product.name}}</a></h2>
+{% endfor %}
+{% endblock content %}

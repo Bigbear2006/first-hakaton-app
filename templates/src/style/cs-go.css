@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Jost&family=Oxygen&display=swap');
+.wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+header{
+    background-color: rgba(37, 4, 63, 1);
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    flex-direction: column;
+}
+.header__logo_top{
+    width: 30px;
+}
+.header__logo-name{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.header__logo-name p{
+    font: normal 76px/78px "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.header__user_logo{
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 50%;
+}
+body{
+    background-color: rgba(53, 3, 92, 1);
+}
+.main__title{
+    margin: 0;
+    color: white;
+    font: 700 50px/61px Inter, sans-serif;
+    padding: 29px 0;
+}
+.main__img_container{
+    display: flex;
+    gap: 74px;
+    padding-bottom: 63px;
+}
+.main__imgs_cs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__button a{
+    color: black;
+    text-decoration: none;
+    font: normal 35px/36px Inter, sans-serif;
+}
+.main__button{
+    padding: 17px 36px;
+    border-radius: 25px;
+    border: none;
+}
+.main__text1{
+    padding:  63px 0 0 0;
+    font: normal 35px/42px Inter, sans-serif;
+    color: rgb(175, 175, 175);
+}
+.main__text2{
+    padding:  30px 0 10px 0;
+    font: normal 35px/42px Inter, sans-serif;
+    color: rgb(175, 175, 175);
+}
+.main__text3{
+    color: white;
+    margin: 0;
+    font: normal 35px/42px Inter,sans-serif ;
+}
+.main__list li{
+    margin: 0;
+    color: #a8a8a8;
+    font: normal 35px/42px Inter,sans-serif ;
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Jost&family=Oxygen&display=swap');
+.wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+header{
+    background-color: rgba(37, 4, 63, 1);
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    flex-direction: column;
+}
+.header__logo_top{
+    width: 30px;
+}
+.header__logo-name{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.header__logo-name p{
+    font: normal 76px/78px "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.header__user_logo{
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 50%;
+}
+.main__block1{
+    background-color: rgba(53, 3, 92, 1);
+}
+.main__container{
+    display: flex;
+    padding: 20px 0 ;
+    gap: 30px;
+}
+.main__ava{
+    background-color: white;
+    border-radius: 50%;
+}
+.main__nick-edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__nick{
+    color: white;
+    font: normal 40px/48px Inter,sans-serif;
+}
+.main__edit{
+    color: white;
+    font: normal 26px/31px Inter,sans-serif;
+    padding: 18px 20px;
+    background-color: rgba(37, 4, 63, 1);
+    border-radius: 11px;
+}
+.main__block2{
+    background-color: rgba(37, 4, 63, 1);
+    display: flex;
+    justify-content: center;
+}
+.main__title{
+    margin: 0;
+    color: white;
+    font: normal 32px/39px Inter, sans-serif;
+    padding: 19px 0px;
+}
+.main__block3{
+    background-color: rgba(53, 3, 92, 1);
+    display: flex;
+    flex-direction: column;
+}
+.main__title2{
+    display: flex;
+    justify-content: center;
+    font: normal 32px/39px Inter,sans-serif;
+    color: white;
+    padding:  20px 0 ;
+}
+.main__title2 h2{
+    padding: 7px 20px;
+    font: normal 32px/39px Inter,sans-serif;
+    margin: 0;
+    background-color:rgba(37, 4, 63, 1) ;
+    border-radius: 1rem;
+}
+
+
+.main__container3{
+    display: flex;
+    width: 1440px;
+    gap: 30px;
+    padding-bottom: 20px;
+
+}
+.main__name-active{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__name{
+    color: white;
+    font: normal 32px/39px Inter,sans-serif;
+}
+.main__active{
+    color: white;
+    font: normal 32px/39px Inter,sans-serif;
+}
+.main__active span{
+    font: normal 32px/39px Inter,sans-serif;
+    color: rgba(255, 255, 255, 0.61);
+}
+.block4{
+    background-color:rgba(37, 4, 67, 1);
+    padding: 10px 0px;
+}
+
+.main__block5{
+    background-color: rgba(53, 3, 92, 1);
+    display: flex;
+    flex-direction: column;
+}
+.main__container5{
+    display: flex;
+    width: 1440px;
+    gap: 30px;
+    padding-bottom: 20px;
+
+}
+.main__name-active{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__name{
+    color: white;
+    font: normal 32px/39px Inter,sans-serif;
+}
+.main__active{
+    color: white;
+    font: normal 32px/39px Inter,sans-serif;
+}
+.main__active span{
+    font: normal 32px/39px Inter,sans-serif;
+    color: rgba(255, 255, 255, 0.61);
+}
