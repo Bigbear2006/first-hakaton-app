@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Jost&family=Oxygen&display=swap');
+.wrapper {
+    margin: 0px auto;
+    max-width: 1440px;
+}
+.header{
+    background-color: rgba(37, 4, 63, 1);
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0px;
+}
+.header__logo{
+    display: flex;
+    flex-direction: column;
+}
+.header__logo_top{
+    width: 30px;
+}
+.header__logo-name{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.header__logo-name p{
+   font: normal 76px/78px "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+.header__logo-authorization{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.header__logo-authorization a{
+    color: white;
+    text-decoration: none;
+    font: normal 20px/28px Inter,sans-serif ;
+}
+.header__user_logo{
+    width: 60px;
+    height: 60px;
+}
+.main__info{
+    background-color: rgba(53, 3, 92, 1);
+}
+.main__info_title{
+    color: white;
+    font: bold 32px/38px Inter, sans-serif;
+    padding: 84px 0px 14px 0px;
+}
+.main__row{
+    display: flex;
+    justify-content: space-between;
+}
+.main_block{
+    background-color: rgba(37, 3, 63, 1);
+    width: 310px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 1rem;
+}
+.main_block h2{
+    color: rgba(95, 0, 190, 1);
+    font: 800 40px/48px Inter, sans-serif;
+    margin: 0;
+}
+.main_block p{
+    color: white;
+    font: 500 24px/30px Inter, sans-serif;
+    width: 225px;
+    text-align: center;
+}
+.main__slogan-pay{
+    display: flex;
+    gap: 400px;
+    padding: 64px 0px 0px 0px;
+}
+
+.main__slogan{
+    display: flex;
+    margin: 0;
+    color: white;
+    font: normal 32px/38px Inter, sans-serif;
+    width: 30%;
+}
+.main__pay{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 120px;
+}
+.main__pay_text{
+    color: white;
+    font: normal 28px/32px Inter, sans-serif;
+}
+.main__cards{
+    display: flex;
+    align-items: center;
+    background-color: rgba(37, 4, 63, 1);
+    border-radius: 1rem;
+    justify-content: space-around;
+}
+
+.main__title_background{
+    background-color: rgba(37, 4, 63, 1);
+}
+.main__title{
+    margin: 0;
+    color: white;
+    font: 600 40px/40px Inter,sans-serif;
+    letter-spacing: 0.1rem;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: center;
+}
+.main__catalog_container{
+    background-color: rgba(53, 3, 92, 1);
+}
+.main__catalog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 68px;
+    padding: 78px 0px 40px 0px;
+}
+.main__game1{
+    background-image: url("/src/assets/cs-go.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game1_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game1_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game1_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game2{
+    background-image: url("/src/assets/dota2.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game2_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game2_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game2_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game3{
+    background-image: url("/src/assets/gta5.svg");
+    background-repeat: no-repeat;
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game3_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 79px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game3_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game3_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game4{
+    background-image: url("/src/assets/fifa.svg");
+    background-repeat: no-repeat;
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game4_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 77px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game4_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game4_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game5{
+    background-image: url("/src/assets/FARCRY 6.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game5_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game5_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game5_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game6{
+    background-image: url("/src/assets/dayz.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game6_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main__game6_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game6_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game7{
+    background-image: url("/src/assets/forza.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game7_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game7_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+    width: 220px;
+}
+.main__game7_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game8{
+    background-image: url("/src/assets/cyberpank.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game8_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main__game8_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+    width: 220px;
+}
+.main__game8_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game9{
+    background-image: url("/src/assets/rust.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game9_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main__game9_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game9_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game10{
+    background-image: url("/src/assets/mafia.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game10_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game10_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game10_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game11{
+    background-image: url("/src/assets/nba.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game11_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main__game11_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0px 0px 14px;
+}
+.main__game11_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0px 14px 0px 0px;
+}
+.main__game12{
+    background-image: url("/src/assets/amongus.svg");
+    width: 413px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+}
+.main__game12_description{
+    background-image: linear-gradient(rgba(31, 3, 53, 1), rgba(52, 0, 92, 1));
+    display: flex;
+    width: 413px;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__game12_name{
+    color: white;
+    font: 500 32px/34px Inter, sans-serif;
+    padding: 0px 0 0 14px;
+}
+.main__game12_price{
+    color: white;
+    font: 300 34px/34px Jost, sans-serif;
+    padding: 0 14px 0 0;
+}
+.footer{
+    padding: 20px 0 20px 0;
+    background-color: rgba(37, 4, 63, 1);
+}
+
+/* Authorization */
+
+
+
+
+
+
+

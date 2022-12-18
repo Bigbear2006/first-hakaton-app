@@ -1,6 +1,8 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 <head>
+    <link href="{% static 'style/style.css' %}" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -22,7 +24,7 @@
            </div>
            <div class="header__logo-authorization">
                    <img class="header__user_logo" src="./src/assets/user_logo.svg" alt="#">
-               <a href="authorization.html">Войти</a>
+               <a href="http://127.0.0.1:8000/login/">Войти</a>
            </div>
        </div>
     </section>
@@ -56,13 +58,13 @@
                 <div class="main__pay">
                    <p class="main__pay_text">ОПЛАЧИВАЙТЕ КАРТАМИ РФ </p>
                     <div class="main__cards">
-                        <img src="./src/assets/mcard.svg" alt="#">
-                        <img src="./src/assets/visa.svg" alt="#">
-                        <img src="./src/assets/mir.svg" alt="#">
-                        <img src="./src/assets/sber.svg" alt="#">
-                        <img src="./src/assets/tinkoff.svg" alt="#">
-                        <img src="./src/assets/webmoney.svg" alt="#">
-                        <img src="./src/assets/umoney.svg" alt="#">
+                        <img src="src/assets/mcard.svg" alt="#">
+                        <img src="src/assets/visa.svg" alt="#">
+                        <img src="src/assets/mir.svg" alt="#">
+                        <img src="src/assets/sber.svg" alt="#">
+                        <img src="src/assets/tinkoff.svg" alt="#">
+                        <img src="src/assets/webmoney.svg" alt="#">
+                        <img src="src/assets/umoney.svg" alt="#">
                     </div>
                 </div>
             </div>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Jost&family=Oxygen&display=swap');
+.wrapper {
+    margin: 0px auto;
+    max-width: 1440px;
+}
+.header{
+    background-color: rgba(37, 4, 63, 1);
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0px;
+}
+.header__logo{
+    display: flex;
+    flex-direction: column;
+}
+.header__logo_top{
+    width: 30px;
+}
+.header__logo-name{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.header__logo-name p{
+    font: normal 76px/78px "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+body{
+    background-color:rgba(37, 4, 63, 1)
+}
+.main__title{
+    margin: 0;
+    color: white;
+    font: normal 50px/50px Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.main__input_login input{
+    width: 930px;
+    height: 35px;
+}
+.main__input_password input{
+    width: 930px;
+    height: 35px;
+}
+h2{
+    margin: 0;
+}
+.main__log_pas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 31px 0 0 0;
+}
+.main__login h2{
+    color: rgba(255, 255, 255, 0.38);
+    font: normal 36px/48px Inter, sans-serif;
+    padding: 0 0 15px 0;
+}
+.main__password h2{
+    color: rgba(255, 255, 255, 0.38);
+    font: normal 36px/48px Inter, sans-serif;
+    padding: 23px 0 15px 0;
+}
+.main__registration a{
+    color: rgba(255, 255, 255, 0.38);
+    font: normal 36px/48px Inter, sans-serif;
+    text-decoration: none;
+}
+.main__registration a:active{
+    color: rgba(114, 66, 148, 0.38);
+    font: normal 36px/48px Inter, sans-serif;
+    text-decoration: none;
+}
+.main__registration{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 84px 0 ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    color:rgba(37, 4, 63, 1) ;
+    padding: 17px 65px;
+    font: normal 30px/30px Inter,sans-serif;
+}
